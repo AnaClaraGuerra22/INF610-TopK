@@ -1,0 +1,32 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8",
+  "sistema": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "semente": 6102026,
+  "ns_sintetico": [
+    300,
+    1500,
+    6000,
+    12000
+  ],
+  "distribuicoes": [
+    "uniforme",
+    "crescente",
+    "decrescente",
+    "empates"
+  ],
+  "repeticoes": 5,
+  "k_reais": [
+    1,
+    5,
+    20,
+    50
+  ],
+  "max_consultas_reais": null,
+  "dados_reais_encontrados": false,
+  "shape_real": null,
+  "sha256_dados": {},
+  "tempo": "ms (codigo com contadores desligados, mas mesmas rotinas de comparacao)",
+  "memoria": "pico tracemalloc dentro da chamada, KiB (sem o vetor de entrada)"
+}

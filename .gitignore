@@ -1,0 +1,15 @@
+# Arquivos temporarios e ambientes locais
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
+*.pyc
+*.zip.part
+*.tmp
+.DS_Store
+Thumbs.db
+
+# O ZIP real E parte da reproducao; nao ignorar!
+# Nao colocar aqui o banco ChromaDB nem arquivos pessoais do TCC.
+VECTOR_DB/
+chroma.sqlite3
